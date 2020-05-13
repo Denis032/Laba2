@@ -1,0 +1,28 @@
+<html lang="en" dir="ltr">   
+<head>     
+<meta charset="utf-8">     
+<title>OSPO</title>     
+</head>
+<form class = "box" action="index.html" method ="post">
+<h1> Считать дискриминант </h1>
+<h>a =</h>
+<input type="number" id="myA" placeholder="Введите число a" />
+<br>
+<h>b =</h>
+<input type="number" id="myB" placeholder="Введите число b" />
+<br>
+<h>с =</h>
+<input type="number" id="myC" placeholder="Введите число c" />
+<br>
+
+<input type="button" id="btn" value="Посчитать дискриминант" onclick="calcD()" />
+<script>
+function calcD() {
+var a = document.getElementById('myA').value;
+var b = document.getElementById('myB').value;
+var c = document.getElementById('myC').value;
+alert(b*b -4*a*c);
+}
+</script>
+</form>
+</html>
